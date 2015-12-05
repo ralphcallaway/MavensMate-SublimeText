@@ -1,4 +1,4 @@
-/* 
+/*
 
 #############
 # IMPORTANT #
@@ -8,18 +8,18 @@ Version 7 of MavensMate for Sublime Text moves many of the settings previously m
 
 MavensMate for Sublime Text settings
 NOTE: MavensMate user settings will override MavensMate default settings
-To override default MavensMate settings, modify user-specific settings (MavensMate --> Settings --> User) 
+To override default MavensMate settings, modify user-specific settings (MavensMate --> Settings --> User)
 
 */
 
-{	
+{
 	//if true, MavensMate will automatically hide the debug panel upon a successful operation
 	"mm_hide_panel_on_success" : true,
 
 	//the amount of time (in seconds) before MavensMate hides the debug panel upon a successful operation
 	"mm_hide_panel_time" : 0,
 
-	//if true, MavensMate will capture the save file operation and compile to the Salesforce.com server automatically 
+	//if true, MavensMate will capture the save file operation and compile to the Salesforce.com server automatically
 	"mm_compile_on_save" : true,
 
 	//if true, MavensMate will scroll to the line of a reported exception when there is a compilation error
@@ -66,7 +66,7 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 		".layout",
 		".resource",
 		".remoteSite",
-		".labels", 
+		".labels",
 		".app",
 		".dashboard",
 		".permissionset",
@@ -103,7 +103,8 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 		".css",
 		".js",
 		".evt",
-		".cmp"
+		".cmp",
+		".md"
 	],
 
 	//local server port (do not change unless you know what you're doing)
